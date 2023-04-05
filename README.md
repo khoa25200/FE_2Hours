@@ -30,7 +30,7 @@ Follow these instructions to set up the project locally.
 1. Clone the repository:
 
 ```
-git clone https://github.com/yourusername/yourproject.git
+git clone https://github.com/khoa25200/FE_2Hours.git
 ```
 
 2. Navigate to the project folder:
@@ -60,7 +60,7 @@ The application should be available at `http://localhost:3000`.
 
 ## Authors
 
-- **Your Name** - *Initial work* - [YourUsername](https://github.com/yourusername)
+- **DangKhoa** - *Initial work* - [khoa25200](https://github.com/khoa25200)
 
 ## License
 
