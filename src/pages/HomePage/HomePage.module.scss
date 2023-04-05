@@ -1,0 +1,233 @@
+.container {
+    // height: 1000px;
+    // background-color: yellow;
+    width: 100%;
+    margin-top: 102px;
+    .main--banner {
+        padding: 57.57px 68px 99.38px 68px;
+        text-align: center;
+        max-height: 770px;
+        img {
+            text-align: center;
+        }
+    }
+    .space {
+        height: 246px;
+    }
+    .title-section {
+        font-size: 44px;
+        color: black;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-family: PlayfairDisplayBold;
+        text-align: center;
+    }
+    .reach-more {
+        .content {
+            position: relative;
+            margin: 0 248px;
+            text-align: center;
+            img {
+                width: 100%;
+            }
+            .text-content {
+                position: absolute;
+                margin: auto;
+                // background-color: green;
+                position: absolute;
+                right: 0;
+                left: 0;
+                top: 0;
+                bottom: 0;
+                height: 200px;
+                h1 {
+                    font-size: 60px;
+                    color: white;
+                    font-family: PlayfairDisplayBold;
+                    margin-bottom: 50px;
+                }
+                .learnhowbtn {
+                    background-color: white;
+                    padding: 19px 32px;
+                    outline: none;
+                    font-size: 21px;
+                    font-family: RalewayBold;
+                    color: var(--green);
+                    text-transform: uppercase;
+                    height: 65px;
+                    width: 200px;
+                    border: none;
+                    &:hover {
+                        cursor: pointer;
+                        background-color: #f3fff9;
+                    }
+                }
+            }
+        }
+    }
+    .co-founder {
+        padding: 50px 177px;
+        position: relative;
+       
+    }
+    .news {
+        padding: 0 117px;
+    }
+    .logocarousel {
+        margin-top: 50px;
+        padding: 0 257px;
+    }
+    .get-started {
+        background-color: var(--green);
+        height: 366px;
+        position: relative;
+        div {
+            position: absolute;
+            top: 10px;
+            bottom: 0;
+            margin: auto;
+            left: 0;
+            right: 0;
+            height: 200px;
+            text-align: center;
+            h1 {
+                font-size: 60px;
+                color: white;
+                font-family: PlayfairDisplayBold;
+                margin-bottom: 50px;
+            }
+            .pick {
+                background-color: white;
+                padding: 19px 32px;
+                outline: none;
+                font-size: 21px;
+                font-family: RalewayBold;
+                color: var(--green);
+                text-transform: uppercase;
+                height: 65px;
+                width: 200px;
+                border: none;
+                &:hover {
+                    cursor: pointer;
+                    background-color: #f3fff9;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1482px) {
+    .container {
+        .main--banner {
+            padding: 31px 10px 54px 10px;
+        }
+        .space {
+            height: 10px;
+        }
+        .reach-more {
+            background-image: url(./slash_black.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            .content {
+                margin: 0 2rem;
+                .text-content {
+                    height: 200px;
+                    h1 {
+                        font-size: 38px;
+                    }
+                    .learnhowbtn {
+                        font-size: 13px;
+                        padding: 12px 24px;
+                        height: 42px;
+                        width: 132px;
+                    }
+                }
+            }
+        }
+        .co-founder{
+            padding: 10px 20px;
+        }
+        .logocarousel {
+            padding: 0 57px;
+        }
+        .get-started {
+            background-color: var(--green);
+            height: 366px;
+            position: relative;
+            div {
+                h1 {
+                    font-size: 38px;
+                }
+                .pick {
+                    font-size: 13px;
+                    padding: 12px 24px;
+                    height: 42px;
+                    width: 132px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 765px) {
+    .container {
+        .main--banner {
+            padding: 0px 30px 54px 30px;
+            max-height: 770px;
+            img {
+            }
+        }
+        .space {
+            height: 46px;
+        }
+        .title-section {
+            font-size: 28px;
+        }
+        .reach-more {
+            background-image: url(./slash_black.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            .content {
+                margin: 0 2rem;
+                .text-content {
+                    height: 200px;
+                    h1 {
+                        font-size: 38px;
+                        margin-bottom: 20px;
+                    }
+                    .learnhowbtn {
+                        font-size: 13px;
+                        padding: 12px 24px;
+                        height: 42px;
+                        width: 132px;
+                    }
+                }
+            }
+        }
+        .news {
+            padding: 0 10px;
+        }
+        .logocarousel {
+            padding: 0 10px;
+        }
+    
+    }
+}
+@media screen and (max-width: 480px) {
+    .container {
+        .main--banner {
+            padding: 15px 10px 27px 10px;
+            max-height: 770px;
+            img {
+            }
+        }
+        .title-section {
+            font-size: 26px;
+        }
+        .reach-more {
+            .content {
+                margin: 0 8px;
+            }
+        }
+    }
+}

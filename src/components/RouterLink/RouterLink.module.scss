@@ -1,0 +1,32 @@
+.link_items {
+    font-size: 17px;
+    font-family: RalewayBold;
+    display: flex;
+    text-align: right;
+    .link_item {
+        text-align: center;
+        margin: auto 7.5px;
+        .underlink {
+            width: 110px;
+            height: 5px;
+            background-color: #4ba87d;
+        }
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    body{
+       
+    }
+    .link_items{
+        font-size: 11px;
+        .link_item {
+            text-align: center;
+            margin: auto 5.5px;
+            .underlink {
+                width: 71px;
+                height: 3px;
+            }
+        }
+    }
+  }

@@ -1,0 +1,40 @@
+.item {
+    width: 100%;
+    padding: 0 16px;
+    position: relative;
+    img {
+        margin: 0 auto;
+        width: 100%;
+        z-index: 10;
+    }
+    .text {
+        position: absolute;
+        bottom: 7px;
+        left: 27px;
+        z-index: 100;
+        color: white;
+        h3 {
+            font-size: 34px;
+            font-family: RalewayBold;
+        }
+        span {
+            font-size: 19px;
+            font-family: RalewayBold;
+        }
+    }
+}
+@media screen and (max-width: 1300px) {
+    .item {
+        .text {
+            bottom: 7px;
+            left: 27px;
+            h3 {
+                font-size: normal;
+     
+            }
+            span {
+                font-size: 12px;
+            }
+        }
+    }
+}

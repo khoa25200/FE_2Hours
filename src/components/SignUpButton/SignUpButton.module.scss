@@ -1,0 +1,26 @@
+.signup{
+    background-color: var(--green);
+    padding: 10px 20px;
+    outline: none;
+    font-size: 17px;
+    font-family: RalewayBold;
+    color: white;
+    text-transform: uppercase;
+    height: 41px;
+    width: 300px;
+    border: none;
+    margin: auto 100px auto 16.5px;
+    &:hover{
+        cursor: pointer;
+        background-color: #3d8865;
+    }
+}
+@media screen and (max-width: 1350px) {
+    .signup{
+        font-size: 11px;
+        width: 110px;
+        margin: auto 0 auto 16.5px;
+        padding: 6px 13.5px;
+        margin: auto 16px auto 11.5px;
+    }
+}

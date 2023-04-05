@@ -1,0 +1,75 @@
+@import 'normalize.css';
+
+// fonts
+@font-face {
+    font-family: RalewayRegular;
+    src: url(./fonts/static/Raleway-Regular.ttf);
+ }
+@font-face {
+    font-family: RalewayBold;
+    src: url(./fonts/static/Raleway-Bold.ttf);
+ }
+@font-face {
+    font-family: RalewayItalic;
+    src: url(./fonts/static/Raleway-Italic.ttf);
+ }
+@font-face {
+    font-family: PlayfairDisplayBold;
+    src: url(./fonts/PlayfairDisplay-Bold.ttf);
+ }
+
+ 
+:root {
+    --primary: #fe2c55;
+    --black: #000;
+    --white: #fff;
+    --green: #4ba87d;
+    --text-color: #161823;
+
+    --font-family: RalewayRegular, 'sans-serif';
+
+    // Default layout
+    --default-layout-header-height: 60px;
+    --default-layout-width: 1150px;
+    --default-layout-horizontal-spacer: 24px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: 1rem;
+    line-height: 1.5;
+    text-rendering: optimizespeed;
+    color: var(--text-color);
+    overflow-y: overlay;
+}
+
+// Scrollbar CSS
+html *::-webkit-scrollbar {
+    border-radius: 0;
+    width: 8px;
+}
+
+html *::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+html *::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+body {
+    background-color: var(--white)
+}

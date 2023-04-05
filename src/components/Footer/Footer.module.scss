@@ -1,0 +1,108 @@
+.footer {
+    min-height: 433px;
+    padding: 77px 216px 40px 216px;
+    margin-bottom: 40px;
+    // background-color: rgb(143, 203, 255);
+    .footer--top {
+        display: flex;
+        .footer--left {
+            flex: 3;
+        }
+        .footer--right {
+            flex: 7;
+            display: flex;
+            justify-content: center;
+            .list1,
+            .list2 {
+                display: flex;
+                a {
+                    font-size: 19px;
+                    line-height: 22px;
+                    font-family: RalewayBold;
+                    text-decoration: none;
+                    color: black;
+                    display: block;
+                    margin: 10px 28px 0 28px;
+                }
+            }
+        }
+    }
+    .divider {
+        min-height: 2px;
+        background: #dbdbdb;
+        width: 100%;
+        margin: 74px auto 38px auto;
+    }
+    .footer--addition {
+        display: flex;
+        font-family: RalewayBold;
+        font-size: 15px;
+        div {
+            flex: 1;
+        }
+        &:not( :first-child) {
+            text-align: center;
+        }
+        &:nth-child(2) {
+            text-align: left;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        min-height: 286px;
+        padding: 47px 64px 60px 64px;
+    }
+}
+@media screen and (max-width: 980px) {
+    .footer {
+        .footer--addition{
+            flex-direction: column;
+            text-align: left !important;
+        }
+    }
+}
+@media screen and (max-width: 985px) {
+    .footer {
+        padding: 77px 100px 40px 100px;
+    }
+}
+@media screen and (max-width: 730px) {
+    .footer {
+        .list1,
+        .list2 {
+           flex-direction: column;
+        }
+    }
+}
+@media screen and (max-width: 570px) {
+    .footer {
+        .footer--top{
+            flex-direction: column;
+        }
+        .space{
+            height: 50px;
+            width: 100%;
+        }
+        .footer--addition{
+            padding-left: 17px;
+        }
+    }
+}
+@media screen and (max-width: 480px) {
+    .footer {
+        height: 486px;
+        padding: 50px 0;
+        .footer--top{
+            flex-direction: column;
+        }
+        .list1,
+        .list2 {
+            flex-direction: column;
+            a{
+                margin: 10px 5px 0 5px !important;
+            }
+        }
+    }
+}

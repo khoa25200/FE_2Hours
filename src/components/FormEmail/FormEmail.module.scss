@@ -1,0 +1,79 @@
+.form {
+    text-align: center;
+    margin-top: 15px;
+    input {
+        outline: none;
+        border: 1px #9f9f9f solid;
+        border-radius: 5px;
+        margin-right: 27px;
+        width: 420px;
+        height: 65px;
+        font-size: 21px;
+        padding: 0 21px;
+    }
+    label {
+        color: var(--green);
+        font-size: 21px;
+        margin-top: 20px;
+        margin-left: -400px;
+    }
+    button {
+        background-color: var(--green);
+        padding: 10px 20px;
+        outline: none;
+        font-size: 17px;
+        font-family: RalewayBold;
+        color: white;
+        text-transform: uppercase;
+        height: 65px;
+        width: 300px;
+        border: none;
+        margin: auto 100px auto 16.5px;
+        &:hover {
+            cursor: pointer;
+            background-color: #3d8865;
+        }
+    }
+}
+@media screen and (max-width: 932px) {
+    .form {
+        input {
+            margin-right: 17px;
+            width: 275px;
+            height: 42px;
+        }
+        label {
+            font-size: 21px;
+            margin-top: 20px;
+            margin-left: -100px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 13px;
+            height: 42px;
+            width: 144px;
+            margin: auto 100px auto 16.5px;
+        }
+    }
+}
+@media screen and (max-width:480px) {
+    .form {
+        input {
+            margin-right: 17px;
+            width: 150px;
+            height: 42px;
+        }
+        label {
+            font-size: 15px;
+            margin-top: 20px;
+            margin-left: -100px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 13px;
+            height: 42px;
+            width: 120px;
+            margin: 20px 10px auto 16.5px;
+        }
+    }
+}

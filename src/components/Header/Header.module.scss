@@ -1,0 +1,30 @@
+.header {
+    position: fixed;
+    height: 102px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: #ffffff;
+    display: flex;
+    z-index: 1000;
+    // justify-content: space-around;
+    .logo {
+        flex: 4;
+    }
+    .right {
+        flex: 6;
+        text-align: right;
+        display: flex;
+        justify-content: right;
+    }
+}
+@media screen and (max-width: 768px) {
+   .header{
+    height: 66px;
+   }
+}
+@media screen and (max-width: 480px) {
+   .header{
+    height: 62px ;
+   }
+}

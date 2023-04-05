@@ -1,0 +1,39 @@
+.logo {
+    display: flex;
+    .text {
+        font-style: normal;
+        font-family: RalewayBold;
+        font-size: 35px;
+        line-height: 102px;
+        font-weight: 900;
+        vertical-align: middle;
+        margin-left: -41px;
+    }
+    img {
+        height: 100px;
+        margin: auto 0;
+    }
+}
+@media screen and (max-width: 1350px) {
+    .logo {
+        .text {
+            font-size: 22px;
+            margin-left: -20px;
+        }
+        img {
+            height: 50px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .text{
+        line-height: 66px !important;
+    }
+
+ }
+ @media screen and (max-width: 480px) {
+    .text{
+        line-height: 62px !important;
+    }
+ }
