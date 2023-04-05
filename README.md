@@ -1,10 +1,10 @@
-# My ReactJS Application
+# My NinjaMail Application
 [View Figma Design](https://www.figma.com/file/f2AeYFx4xphDE0YZzfYiFz/B%C3%A0i-Test-Frontend?node-id=1-2&t=I2pzLTnkOuHnU1qy-0)
-[View Demo](https://www.abc.com)
+[View Demo](https://fe2hours-k1etfob7c-khoa25200.vercel.app)
 
 
 
-# Project Title: ReactJS App
+# Project Title: NinjaMail
 
 This project is a ReactJS application developed by an awesome developer. 
 
@@ -14,7 +14,7 @@ You can check the design of the application here: [Figma Design](https://www.fig
 
 ## Demo Link
 
-You can see the live demo of the application here: [www.abc.com](https://www.abc.com)
+You can see the live demo of the application here: [fe2hours-k1etfob7c-khoa25200.vercel.app](https://fe2hours-k1etfob7c-khoa25200.vercel.app)
 
 ## Getting Started
 
